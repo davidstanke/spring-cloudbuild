@@ -1,7 +1,7 @@
 # spring-cloudbuild
 Build a simple Spring Boot application with Google Cloud Build
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fdavidstanke%2Fspring-cloudbuild)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fdavidstanke%2Fspring-cloudbuild&cloudshell_open_in_editor=README.md)
 
 ## Method A: Building with Cloud Build
 #### Build, test, and package application with Cloud Build
