@@ -4,6 +4,7 @@ Simple demo of building Spring with Google Cloud Build
 ### Using Cloud Build
 #### Build, test, and package application with Cloud Build
 > _prerequisite: the `gcloud` CLI is installed and configured_
+
 > _prerequisite: the active GCP project in gcloud has the Cloud Build API enabled_
 
 * `gcloud builds submit`
