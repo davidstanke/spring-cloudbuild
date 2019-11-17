@@ -33,6 +33,8 @@ hs_err_pid*
 !.vscode/extensions.json
 *.code-workspace
 .settings*
+.classpath
+.project
 
 # Mac OS
 .DS_Store
