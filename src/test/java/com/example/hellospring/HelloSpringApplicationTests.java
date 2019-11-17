@@ -1,5 +1,7 @@
 package com.example.hellospring;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -10,4 +12,9 @@ class HelloSpringApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void greetingShown() {
+		String bannerString=HelloSpringApplication.getBanner();
+		assertTrue(bannerString.contains("Hello from Google Cloud!"));
+		}
 }
