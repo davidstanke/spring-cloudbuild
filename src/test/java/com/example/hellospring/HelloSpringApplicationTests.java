@@ -15,6 +15,6 @@ class HelloSpringApplicationTests {
 	@Test
 	void greetingShown() {
 		String bannerString=HelloSpringApplication.getBanner();
-		assertTrue(bannerString.contains("Hello to Google Cloud!"));
+		assertTrue(bannerString.contains("Hello from Google Cloud!"));
 		}
 }
