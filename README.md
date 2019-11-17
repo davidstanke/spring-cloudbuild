@@ -1,5 +1,5 @@
 # spring-cloudbuild
-Simple demo of building Spring with Google Cloud Build
+Build a simple Spring Boot application with Google Cloud Build
 
 ## Using Cloud Build
 #### Build, test, and package application with Cloud Build
