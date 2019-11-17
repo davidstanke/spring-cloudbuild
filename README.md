@@ -1,7 +1,7 @@
 # spring-cloudbuild
 Simple demo of building Spring with Google Cloud Build
 
-### Using Cloud Build
+## Using Cloud Build
 #### Build, test, and package application with Cloud Build
 > _prerequisite: the `gcloud` CLI is installed and configured_
 
@@ -16,7 +16,7 @@ Simple demo of building Spring with Google Cloud Build
 
   _...you should see the GCP logo (as ASCII)_
 
-### (alt) Build a JAR and run locally (non-containerized)
+## (alt) Build a JAR and run locally (non-containerized)
 > _prerequisite: Java version 8+ is available on the path (to test: `java -version`)_
 
 * `./mvnw package`
