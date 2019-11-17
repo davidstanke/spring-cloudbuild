@@ -1,6 +1,8 @@
 # spring-cloudbuild
 Build a simple Spring Boot application with Google Cloud Build
 
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fdavidstanke%2Fspring-cloudbuild)
+
 ## Method A: Building with Cloud Build
 #### Build, test, and package application with Cloud Build
 > prerequisites: 
@@ -15,7 +17,8 @@ Build a simple Spring Boot application with Google Cloud Build
 #### Locally run the application created by Cloud Build
 > _prerequisite: Docker is installed and running_
 
-1. run `docker run gcr.io/$(gcloud config list --format 'value(core.project)' 2>/dev/null)/hellospring`
+1. run `export PROJECT_ID=$(gcloud config list --format 'value(core.project)' 2>/dev/null)`
+2. run `docker run gcr.io/$PROJECT_ID/hellospring`
 
   _...you should see the GCP logo (as ASCII)_
 
