@@ -14,9 +14,12 @@ Simple demo of building Spring with Google Cloud Build
 
 * `docker run gcr.io/$(gcloud config list --format 'value(core.project)' 2>/dev/null)/hellospring`
 
+  _...you should see the GCP logo (as ASCII)_
+
 ### (alt) Build a JAR and run locally (non-containerized)
 > _prerequisite: Java version 8+ is available on the path (to test: `java -version`)_
 
 * `./mvnw package`
 * `java -jar target/hello-spring-1.0.0.jar`
-* _...you should see the GCP logo (as ASCII)_
+
+  _...you should see the GCP logo (as ASCII)_
