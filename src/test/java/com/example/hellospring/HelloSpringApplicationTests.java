@@ -14,7 +14,13 @@ class HelloSpringApplicationTests {
 
 	@Test
 	void greetingShown() {
-		String bannerString=HelloSpringApplication.getBanner();
+		String bannerString=HelloSpringApplication.getBanner("ANSI");
 		assertTrue(bannerString.contains("Hello from Google Cloud!"));
 		}
+
+	@Test
+	void emojiGreetingShown() {
+		String bannerString=HelloSpringApplication.getBanner("emoji");
+		assertTrue(bannerString.contains("Hello from Google Cloud!"));
+		}		
 }
